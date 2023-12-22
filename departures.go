@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/tealeg/xlsx/v3"
 )
@@ -12,11 +13,11 @@ type DepartureData struct {
 	Type     string
 	Wake     int    // 0 -> light; 1 -> medium; 2 -> heavy
 	SID      string // XXXXX
-	Runway   bool   // false -> right; true -> left
+	Runway   string
 }
 
-func parseDepartures(sh *xlsx.Sheet) map[string][]DepartureData {
-	departures := make(map[string][]DepartureData, 0)
+func parseDepartures(sh *xlsx.Sheet, sids map[string]struct{}) []DepartureData {
+	departures := make([]DepartureData, 0)
 	err := sh.ForEachRow(func(r *xlsx.Row) error {
 		if r.GetCoordinate() == 0 {
 			return nil
@@ -49,17 +50,41 @@ func parseDepartures(sh *xlsx.Sheet) map[string][]DepartureData {
 		sid := "-"
 		if depProc != "-" {
 			sid = depProc[:len(depProc)-2]
+		} else {
+			words := strings.Split(r.GetCell(3).Value, " ")
+			for _, word := range words {
+				if strings.Contains(word, "(") && strings.Contains(word, ")") {
+					for i := 0; i < len(word)-2; i++ {
+						if word[i] == '(' {
+							word = word[i+1:]
+							break
+						}
+					}
+
+					for i := len(word) - 1; i > 0; i-- {
+						if word[i] == ')' {
+							word = word[:i]
+							break
+						}
+					}
+
+				}
+
+				if _, ok := sids[word]; ok {
+					sid = word
+					break
+				}
+			}
 		}
 
-		var runway bool
-		rwStr := r.GetCell(7).Value
-		switch rwStr[len(rwStr)-1] {
-		case 'R':
-			runway = false
-		case 'L':
-			runway = true
-		default:
-			return fmt.Errorf("unknown runway: %c", depProc[6])
+		if sid == "-" {
+			panic("Couldn't associate a SID to a departure")
+		}
+
+		runway := r.GetCell(7).Value[5:]
+
+		if runway != "24L" && runway != "6R" {
+			return nil
 		}
 
 		depData := DepartureData{
@@ -71,14 +96,8 @@ func parseDepartures(sh *xlsx.Sheet) map[string][]DepartureData {
 			Runway:   runway,
 		}
 
-		deps, ok := departures[callsign]
-		if !ok {
-			deps = make([]DepartureData, 0)
-		}
-		deps = append(deps, depData)
-		departures[callsign] = deps
+		departures = append(departures, depData)
 
-		fmt.Println(depData)
 		return nil
 	})
 

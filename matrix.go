@@ -3,18 +3,18 @@ package main
 import "errors"
 
 type Matrix struct {
-	rows uint
-	cols uint
+	rows   uint
+	cols   uint
 	values []float64
 }
 
 func NewMatrix(rows, cols uint, values []float64) (Matrix, error) {
 	m := Matrix{rows: rows, cols: cols}
 
-	if (values == nil) {
-		m.values = make([]float64, rows * cols)
+	if values == nil {
+		m.values = make([]float64, rows*cols)
 	} else {
-		if uint(len(values)) != rows * cols {
+		if uint(len(values)) != rows*cols {
 			return m, errors.New("bad matrix dimensions")
 		}
 		m.values = values
@@ -32,7 +32,7 @@ func (m Matrix) Transpose() Matrix {
 			// 34		2468
 			// 56
 			// 78
-			res.values[c * m.rows + r] = m.values[r * m.cols + c]
+			res.values[c*m.rows+r] = m.values[r*m.cols+c]
 		}
 	}
 
@@ -40,7 +40,7 @@ func (m Matrix) Transpose() Matrix {
 }
 
 func (a Matrix) Multiply(b Matrix) (Matrix, error) {
-	if (a.cols != b.rows) {
+	if a.cols != b.rows {
 		return Matrix{}, errors.New("incompatible dimensions for matrix multiplication")
 	}
 
@@ -49,7 +49,7 @@ func (a Matrix) Multiply(b Matrix) (Matrix, error) {
 	for r := uint(0); r < res.rows; r++ {
 		for c := uint(0); c < res.cols; c++ {
 			for i := uint(0); i < a.cols; i++ {
-				res.values[r * res.cols + c] += a.values[r * a.cols + i] * b.values[i * b.cols + c]
+				res.values[r*res.cols+c] += a.values[r*a.cols+i] * b.values[i*b.cols+c]
 			}
 		}
 	}
@@ -58,17 +58,35 @@ func (a Matrix) Multiply(b Matrix) (Matrix, error) {
 }
 
 func (a Matrix) Add(b Matrix) (Matrix, error) {
-	if (a.rows != b.rows || a.cols != b.cols) {
+	if a.rows != b.rows || a.cols != b.cols {
 		return Matrix{}, errors.New("incompatible dimensions for matrix addition")
 	}
 
-	values := make([]float64, a.rows * a.cols)
+	values := make([]float64, a.rows*a.cols)
 	copy(values, a.values)
 	res, _ := NewMatrix(a.rows, a.cols, values)
 
 	for r := uint(0); r < a.rows; r++ {
 		for c := uint(0); c < a.cols; c++ {
-			res.values[r * res.cols + c] += b.values[r * b.cols + c]
+			res.values[r*res.cols+c] += b.values[r*b.cols+c]
+		}
+	}
+
+	return res, nil
+}
+
+func (a Matrix) Substract(b Matrix) (Matrix, error) {
+	if a.rows != b.rows || a.cols != b.cols {
+		return Matrix{}, errors.New("incompatible dimensions for matrix addition")
+	}
+
+	values := make([]float64, a.rows*a.cols)
+	copy(values, a.values)
+	res, _ := NewMatrix(a.rows, a.cols, values)
+
+	for r := uint(0); r < a.rows; r++ {
+		for c := uint(0); c < a.cols; c++ {
+			res.values[r*res.cols+c] -= b.values[r*b.cols+c]
 		}
 	}
 

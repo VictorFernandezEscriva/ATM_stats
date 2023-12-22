@@ -23,13 +23,6 @@ type CartesianCoords struct {
 	Z float64
 }
 
-type Radar struct {
-	SAC, SIC          uint8
-	rotationMatrix    Matrix
-	translationMatrix Matrix
-	coords            GPSCoords
-}
-
 func ComputeRotationMatrix(c GPSCoords) Matrix {
 	lat := c.Lat * math.Pi / 180
 	lon := c.Lon * math.Pi / 180
@@ -64,8 +57,14 @@ func ComputeTranslationMatrix(c GPSCoords) Matrix {
 	return m
 }
 
-func NewRadar(SAC, SIC uint8) (*Radar, error) {
+type Radar struct {
+	SAC, SIC          uint8
+	rotationMatrix    Matrix
+	translationMatrix Matrix
+	coords            GPSCoords
+}
 
+func NewRadar(SAC, SIC uint8) (*Radar, error) {
 	var r Radar
 	if SAC == 0x14 && SIC == 0x81 {
 		r = Radar{
@@ -167,16 +166,60 @@ func (g GPSCoords) ToGeocentric() GeocentricCoords {
 
 type SystemCartesianCoords CartesianCoords
 
-var centerProjectionRotation = ComputeRotationMatrix()
-var centerProjectionTranslation = ComputeRotationMatrix()
+type SystemCartesian struct {
+	rotationMatrix    Matrix
+	translationMatrix Matrix
+	earthRadius       float64
+	center            GPSCoords
+}
 
-type SystemProjection
+func NewSystemCartesian(center GPSCoords) SystemCartesian {
+	a := float64(6378137)
+	e2 := 0.00669437999013
 
-func (g GeocentricCoords) ToSystemCartesianCoords() SystemCartesianCoords {
-	b := 6356752.3142
+	s := SystemCartesian{}
+	s.rotationMatrix = ComputeRotationMatrix(center)
+	s.translationMatrix = ComputeTranslationMatrix(center)
 
-	inputMatrix, err := NewMatrix(3, 1, []float64{g.X, g.Y, g.Z})
-	if math.Abs(g.X) {
+	s.earthRadius = (a * (1.0 - e2)) /
+		math.Pow(1-e2*math.Pow(math.Sin(center.Lat*math.Pi/180), 2.0), 1.5)
 
+	s.center = center
+
+	return s
+}
+
+func (s SystemCartesian) GeocentricToSystemCartesian(g GeocentricCoords) SystemCartesianCoords {
+	inputMatrix, _ := NewMatrix(3, 1, []float64{g.X, g.Y, g.Z})
+	aux, _ := inputMatrix.Substract(s.translationMatrix)
+	res, _ := s.rotationMatrix.Multiply(aux)
+
+	return SystemCartesianCoords{
+		X: res.values[0],
+		Y: res.values[1],
+		Z: res.values[2],
 	}
+}
+
+type StereographicCoords struct {
+	U float64
+	V float64
+	H float64
+}
+
+func (s SystemCartesian) SystemCartesianToStereographic(c SystemCartesianCoords) StereographicCoords {
+	d_xy2 := c.X*c.X + c.Y*c.Y
+	height := math.Sqrt(d_xy2+math.Pow(c.Z+s.center.Alt+s.earthRadius, 2)) - s.earthRadius
+	k := (2 * s.earthRadius) / (2*s.earthRadius + s.center.Alt + c.Z + height)
+
+	return StereographicCoords{
+		U: k * c.X,
+		V: k * c.Y,
+		H: height,
+	}
+}
+
+func (s SystemCartesian) GeocentricToStereographic(g GeocentricCoords) StereographicCoords {
+	aux := s.GeocentricToSystemCartesian(g)
+	return s.SystemCartesianToStereographic(aux)
 }
