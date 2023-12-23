@@ -16,8 +16,8 @@ def plot_compliance(ax, compliant, total, title):
     ax.legend(wedges, ["Compliant flights", "Not compliant flights"])
     ax.set_title(title)
 
-def plot_by_airline(radar: dict, wake: dict, loa: dict):
-    fig, (ax1, ax2) = plt.subplots(nrows=1, ncols=2)
+def plot_by_airline(radar: dict, wake: dict, loa: dict, results):
+    fig, ax = plt.subplots()
 
     airlines = list(set(radar.keys()) | set(wake.keys()) | set(loa.keys()))
 
@@ -31,11 +31,13 @@ def plot_by_airline(radar: dict, wake: dict, loa: dict):
     bottom = np.zeros(len(airlines))
 
     for type_compliance, not_compliances in not_compliances.items():
-        ax1.bar(airlines, not_compliances, width, label=type_compliance, bottom=bottom)
+        ax.bar(airlines, not_compliances, width, label=type_compliance, bottom=bottom)
         bottom += not_compliances
 
-    ax1.set_title("Not compliances by airline")
-    ax1.legend(loc="upper right")
+    ax.set_title("Not compliances by airline")
+    ax.legend(loc="upper right")
+
+    fig, ax = plt.subplots()
 
     values = []
     imp_airlines = []
@@ -51,11 +53,35 @@ def plot_by_airline(radar: dict, wake: dict, loa: dict):
     imp_airlines.append("Other")
     total = sum(values)
 
-    wedges, _, _ = ax2.pie(values, autopct=lambda pct: f"{int(round(pct/100*total))} ({pct:1.1f}%)")
-    ax2.legend(wedges, imp_airlines)
+    wedges, _, _ = ax.pie(values, autopct=lambda pct: f"{int(round(pct/100*total))} ({pct:1.1f}%)")
+    ax.legend(wedges, imp_airlines)
+
+    fig, ax = plt.subplots()
+
+    values = []
+    imp_airlines = []
+    other = 0
+    airlines = {}
+    for result in results:
+        airline = result["Second"]["Company"]
+        if airline not in airlines:
+            airlines[airline] = 0
+        airlines[airline] += 1
+    
+    other = 0
+    for v in airlines.values():
+        if v <= 2:
+            other += v
+    airlines = {k: v for k, v in airlines.items() if v > 2}
+    airlines["Other"] = other
+    print(airlines)
+    total = sum(list(airlines.values()))
+
+    wedges, _ = ax.pie(list(airlines.values()))
+    ax.legend(wedges, list(airlines.keys()))
+    ax.set_title("Total flights by airline")
 
 def plot_by_wake(wake: dict):
-    print(wake)
     fig, ax = plt.subplots()
 
     wake_categories = list(wake.keys())
@@ -316,7 +342,7 @@ def plot_statistics(json_file):
     by_airline_loa, by_class, by_sid = loa_compliance_percentage(results["Results"])
 
     minimum_radar_normal_distributions(minDistances)
-    plot_by_airline(by_airline_radar, by_airline_wake, by_airline_loa)
+    plot_by_airline(by_airline_radar, by_airline_wake, by_airline_loa, results["Results"])
     plot_by_wake(by_wake)
     plot_by_class(by_class)
     plot_by_sid(by_sid)
