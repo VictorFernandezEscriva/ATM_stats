@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}"
+        },
+        {
+            "name": "Python: File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["results.json"],
+            "justMyCode": true
+        }
+    ]
+}

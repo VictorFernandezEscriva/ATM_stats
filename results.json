@@ -2,1941 +2,7563 @@
   "Results": [
     {
       "First": {
+        "Callsign": "VLG2PF",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "TAP39ZL",
+        "Company": "TAP",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.012013299034092,
+      "Separation": 4.012013299034092
+    },
+    {
+      "First": {
+        "Callsign": "TAP39ZL",
+        "Company": "TAP",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR2ZW",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 6.619835144489884,
+      "Separation": 6.619835144489884
+    },
+    {
+      "First": {
+        "Callsign": "RYR2ZW",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR1WV",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 12.164815254220562,
+      "Separation": 12.164815254220562
+    },
+    {
+      "First": {
+        "Callsign": "RYR1WV",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "SWR1951",
+        "Company": "SWR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.922862151691809,
+      "Separation": 4.922862151691809
+    },
+    {
+      "First": {
+        "Callsign": "SWR1951",
+        "Company": "SWR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR3CD",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.288235845161141,
+      "Separation": 4.288235845161141
+    },
+    {
+      "First": {
+        "Callsign": "VLG497G",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "UPS242",
+        "Company": "UPS",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.5435207752285773,
+      "Separation": 3.5435207752285773
+    },
+    {
+      "First": {
+        "Callsign": "UPS242",
+        "Company": "UPS",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR88BP",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 6.876508941572001,
+      "Separation": 6.876508941572001
+    },
+    {
+      "First": {
+        "Callsign": "RYR88BP",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RYR16RE",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 7.220492027891173,
+      "Separation": 8.197104183684388
+    },
+    {
+      "First": {
+        "Callsign": "RYR16RE",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR55NX",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.003472898986214,
+      "Separation": 4.003472898986214
+    },
+    {
+      "First": {
+        "Callsign": "RYR55NX",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG1896",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 21.435560467594563,
+      "Separation": 21.435560467594563
+    },
+    {
+      "First": {
+        "Callsign": "VLG1896",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG7YT",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.728123908628763,
+      "Separation": 4.728123908628763
+    },
+    {
+      "First": {
+        "Callsign": "VLG7YT",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR374J",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.090766250803964,
+      "Separation": 4.090766250803964
+    },
+    {
+      "First": {
+        "Callsign": "RYR374J",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RYR16PK",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.672692095306431,
+      "Separation": 3.672692095306431
+    },
+    {
+      "First": {
+        "Callsign": "RYR16PK",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "AFR35CC",
+        "Company": "AFR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.8971305003706944,
+      "Separation": 3.8971305003706944
+    },
+    {
+      "First": {
+        "Callsign": "AFR35CC",
+        "Company": "AFR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG8SH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.956746935120617,
+      "Separation": 3.956746935120617
+    },
+    {
+      "First": {
+        "Callsign": "VLG8SH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR1UZ",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.427852894891549,
+      "Separation": 4.427852894891549
+    },
+    {
+      "First": {
+        "Callsign": "RYR1UZ",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "EJU15WP",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.4070901367801256,
+      "Separation": 3.884232707007626
+    },
+    {
+      "First": {
+        "Callsign": "EJU15WP",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG1292",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 5.461406280878243,
+      "Separation": 5.461406280878243
+    },
+    {
+      "First": {
+        "Callsign": "VLG1292",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RYR7UG",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.988232050547726,
+      "Separation": 7.374745105960877
+    },
+    {
+      "First": {
+        "Callsign": "RYR7UG",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG2JT",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 9.668720101795646,
+      "Separation": 9.668720101795646
+    },
+    {
+      "First": {
+        "Callsign": "VLG2JT",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG164B",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 7.238828331537216,
+      "Separation": 7.238828331537216
+    },
+    {
+      "First": {
+        "Callsign": "VLG164B",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG80UC",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 9.80833502650582,
+      "Separation": 11.329191403857482
+    },
+    {
+      "First": {
+        "Callsign": "VLG80UC",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG9BM",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.992316888420471,
+      "Separation": 5.992316888420471
+    },
+    {
+      "First": {
+        "Callsign": "VLG9BM",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG2RQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.0713013673485925,
+      "Separation": 4.0713013673485925
+    },
+    {
+      "First": {
+        "Callsign": "VLG2RQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG3FM",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.143687100393359,
+      "Separation": 3.143687100393359
+    },
+    {
+      "First": {
+        "Callsign": "VLG3FM",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG6246",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 2.8156764367198814,
+      "Separation": 2.8156764367198814
+    },
+    {
+      "First": {
+        "Callsign": "VLG6246",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG89WB",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.1774121377054625,
+      "Separation": 3.1774121377054625
+    },
+    {
+      "First": {
+        "Callsign": "VLG89WB",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "DLH62X",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.19371815480738,
+      "Separation": 4.19371815480738
+    },
+    {
+      "First": {
+        "Callsign": "DLH62X",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG9FF",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.145672502425574,
+      "Separation": 4.145672502425574
+    },
+    {
+      "First": {
+        "Callsign": "VLG9FF",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "MGO102",
+        "Company": "MGO",
+        "Wake": "Medium",
+        "Class": "HP",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.932021506333743,
+      "Separation": 4.932021506333743
+    },
+    {
+      "First": {
+        "Callsign": "MGO102",
+        "Company": "MGO",
+        "Wake": "Medium",
+        "Class": "HP",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG19UW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.006773030208213,
+      "Separation": 5.464346147071794
+    },
+    {
+      "First": {
+        "Callsign": "VLG19UW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG57HR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.079770963700009,
+      "Separation": 4.079770963700009
+    },
+    {
+      "First": {
+        "Callsign": "VLG57HR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG7PX",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 2.8676288043290303,
+      "Separation": 2.8676288043290303
+    },
+    {
+      "First": {
+        "Callsign": "VLG7PX",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "IBE30WP",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.6165601959848566,
+      "Separation": 3.6165601959848566
+    },
+    {
+      "First": {
+        "Callsign": "IBE30WP",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG7HQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.7202023572274165,
+      "Separation": 3.7202023572274165
+    },
+    {
+      "First": {
+        "Callsign": "VLG7HQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG744Q",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.068145762158675,
+      "Separation": 5.068145762158675
+    },
+    {
+      "First": {
+        "Callsign": "VLG744Q",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG31HY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.4793138972121085,
+      "Separation": 4.4793138972121085
+    },
+    {
+      "First": {
+        "Callsign": "VLG31HY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG34HN",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.9135307645974016,
+      "Separation": 3.9135307645974016
+    },
+    {
+      "First": {
+        "Callsign": "VLG34HN",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG4XA",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 6.674755300698343,
+      "Separation": 6.891447457385843
+    },
+    {
+      "First": {
+        "Callsign": "VLG4XA",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG6LQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.1491486006433815,
+      "Separation": 4.1491486006433815
+    },
+    {
+      "First": {
+        "Callsign": "VLG6LQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG79LD",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 5.920488318244103,
+      "Separation": 5.920488318244103
+    },
+    {
+      "First": {
+        "Callsign": "VLG79LD",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG6PH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.80659922406117,
+      "Separation": 3.80659922406117
+    },
+    {
+      "First": {
+        "Callsign": "VLG6PH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG3LK",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.849343209874992,
+      "Separation": 3.849343209874992
+    },
+    {
+      "First": {
+        "Callsign": "VLG3LK",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG1882",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 5.807870519505447,
+      "Separation": 5.807870519505447
+    },
+    {
+      "First": {
+        "Callsign": "VLG1882",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG21GB",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 7.40701565018565,
+      "Separation": 7.40701565018565
+    },
+    {
+      "First": {
+        "Callsign": "VLG21GB",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG404P",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.2511195411701164,
+      "Separation": 3.2511195411701164
+    },
+    {
+      "First": {
+        "Callsign": "VLG404P",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG2LR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.002263018204998,
+      "Separation": 4.002263018204998
+    },
+    {
+      "First": {
+        "Callsign": "VLG2LR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG431R",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.5737626579851614,
+      "Separation": 3.5737626579851614
+    },
+    {
+      "First": {
+        "Callsign": "VLG431R",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG6203",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.170943458184456,
+      "Separation": 4.170943458184456
+    },
+    {
+      "First": {
+        "Callsign": "VLG6203",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG4PC",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.8858251458377757,
+      "Separation": 3.8858251458377757
+    },
+    {
+      "First": {
+        "Callsign": "VLG4PC",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR4TJ",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.102650040645074,
+      "Separation": 5.102650040645074
+    },
+    {
+      "First": {
+        "Callsign": "RYR4TJ",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG44WN",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.756608382082376,
+      "Separation": 3.756608382082376
+    },
+    {
+      "First": {
+        "Callsign": "VLG44WN",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "EJU7105",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.575918955085297,
+      "Separation": 4.575918955085297
+    },
+    {
+      "First": {
+        "Callsign": "EJU7105",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG11SD",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.9464499009761282,
+      "Separation": 3.9464499009761282
+    },
+    {
+      "First": {
+        "Callsign": "VLG11SD",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG6330",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.051682107501608,
+      "Separation": 4.051682107501608
+    },
+    {
+      "First": {
+        "Callsign": "VLG6330",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG49HW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.5059292367729893,
+      "Separation": 3.5059292367729893
+    },
+    {
+      "First": {
+        "Callsign": "VLG49HW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "DLH05J",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 7.04142387204966,
+      "Separation": 7.130794113597582
+    },
+    {
+      "First": {
+        "Callsign": "DLH05J",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "EJU31EM",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.257300927335539,
+      "Separation": 4.257300927335539
+    },
+    {
+      "First": {
+        "Callsign": "EJU31EM",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG1ND",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.123468045603159,
+      "Separation": 4.123468045603159
+    },
+    {
+      "First": {
+        "Callsign": "VLG1ND",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "BAW47C",
+        "Company": "BAW",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.917465966448816,
+      "Separation": 3.917465966448816
+    },
+    {
+      "First": {
+        "Callsign": "BAW47C",
+        "Company": "BAW",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "SWN5LC",
+        "Company": "SWN",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.314478791783372,
+      "Separation": 5.314478791783372
+    },
+    {
+      "First": {
+        "Callsign": "SWN5LC",
+        "Company": "SWN",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG2XZ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 2.93804655013211,
+      "Separation": 2.93804655013211
+    },
+    {
+      "First": {
+        "Callsign": "VLG2XZ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG1508",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.8856910402429388,
+      "Separation": 3.8856910402429388
+    },
+    {
+      "First": {
+        "Callsign": "VLG1508",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG4SD",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.497588143457121,
+      "Separation": 4.497588143457121
+    },
+    {
+      "First": {
+        "Callsign": "VLG4SD",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "EJU93PZ",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.803616097457822,
+      "Separation": 4.803616097457822
+    },
+    {
+      "First": {
+        "Callsign": "EJU93PZ",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RYR29FB",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.343450958345282,
+      "Separation": 4.343450958345282
+    },
+    {
+      "First": {
+        "Callsign": "RYR29FB",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "IBE30GT",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 6.439548360530989,
+      "Separation": 6.439548360530989
+    },
+    {
+      "First": {
+        "Callsign": "IBE30GT",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "SWT8168",
+        "Company": "SWT",
+        "Wake": "Medium",
+        "Class": "NR+",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 15.277421539888623,
+      "Separation": 15.277421539888623
+    },
+    {
+      "First": {
+        "Callsign": "SWT8168",
+        "Company": "SWT",
+        "Wake": "Medium",
+        "Class": "NR+",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG8EF",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 7.502666373108228,
+      "Separation": 8.403613805543955
+    },
+    {
+      "First": {
+        "Callsign": "VLG8EF",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG7UN",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.3840919736195874,
+      "Separation": 3.3840919736195874
+    },
+    {
+      "First": {
+        "Callsign": "VLG7UN",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG7334",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 12.670413601374328,
+      "Separation": 13.141707889084193
+    },
+    {
+      "First": {
+        "Callsign": "VLG7334",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "KLM18S",
+        "Company": "KLM",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 20.68052898131808,
+      "Separation": 20.68052898131808
+    },
+    {
+      "First": {
+        "Callsign": "KLM18S",
+        "Company": "KLM",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "TLJ785K",
+        "Company": "TLJ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 14.167083415687635,
+      "Separation": 14.382245654448154
+    },
+    {
+      "First": {
+        "Callsign": "TLJ785K",
+        "Company": "TLJ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG42YP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 18.32503987581565,
+      "Separation": 19.81775085570926
+    },
+    {
+      "First": {
+        "Callsign": "RYR2YB",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR4U",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.370545485016098,
+      "Separation": 4.370545485016098
+    },
+    {
+      "First": {
+        "Callsign": "RYR4U",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "THY5HX",
+        "Company": "THY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 5.256298890175417,
+      "Separation": 5.256298890175417
+    },
+    {
+      "First": {
+        "Callsign": "THY5HX",
+        "Company": "THY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "AEA29WG",
+        "Company": "AEA",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 6.379758177486382,
+      "Separation": 6.379758177486382
+    },
+    {
+      "First": {
+        "Callsign": "AEA29WG",
+        "Company": "AEA",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR7UY",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.280669279404049,
+      "Separation": 5.280669279404049
+    },
+    {
+      "First": {
+        "Callsign": "RYR7UY",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "WMT9393",
+        "Company": "WMT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.975474475075652,
+      "Separation": 4.975474475075652
+    },
+    {
+      "First": {
+        "Callsign": "YUAPR",
+        "Company": "YUA",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG16BZ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.497342796361528,
+      "Separation": 4.497342796361528
+    },
+    {
+      "First": {
+        "Callsign": "VLG16BZ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "EWG84GX",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 27.878111421296424,
+      "Separation": 27.878111421296424
+    },
+    {
+      "First": {
+        "Callsign": "EWG84GX",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG9YB",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.8963167248184614,
+      "Separation": 3.8963167248184614
+    },
+    {
+      "First": {
+        "Callsign": "VLG9YB",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG80BU",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.920480787289197,
+      "Separation": 5.920480787289197
+    },
+    {
+      "First": {
+        "Callsign": "VLG80BU",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG57MA",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.203972345242434,
+      "Separation": 5.203972345242434
+    },
+    {
+      "First": {
+        "Callsign": "VLG57MA",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR2FY",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.407879334686522,
+      "Separation": 4.407879334686522
+    },
+    {
+      "First": {
+        "Callsign": "RYR2FY",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG1ZN",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.491223163280199,
+      "Separation": 4.491223163280199
+    },
+    {
+      "First": {
+        "Callsign": "VLG1ZN",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG6BG",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.276371234342608,
+      "Separation": 4.276371234342608
+    },
+    {
+      "First": {
+        "Callsign": "VLG6BG",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "EJU3778",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 18.77119646843695,
+      "Separation": 18.77119646843695
+    },
+    {
+      "First": {
+        "Callsign": "EJU3778",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "IBE30SW",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 10.575232868803234,
+      "Separation": 13.499238029715672
+    },
+    {
+      "First": {
+        "Callsign": "IBE30SW",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG9BP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.320826500330078,
+      "Separation": 4.320826500330078
+    },
+    {
+      "First": {
+        "Callsign": "VLG9BP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RYR9TK",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.089527216357898,
+      "Separation": 4.089527216357898
+    },
+    {
+      "First": {
+        "Callsign": "RYR9TK",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "EWG521",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.428152151945632,
+      "Separation": 4.428152151945632
+    },
+    {
+      "First": {
+        "Callsign": "EWG521",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "QTR94P",
+        "Company": "QTR",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.6534826901990884,
+      "Separation": 4.6534826901990884
+    },
+    {
+      "First": {
+        "Callsign": "QTR94P",
+        "Company": "QTR",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG2FM",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 7.786380270416729,
+      "Separation": 7.805198167771274
+    },
+    {
+      "First": {
+        "Callsign": "VLG2FM",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "IBE30FP",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 9.095030381393267,
+      "Separation": 10.403880560495367
+    },
+    {
+      "First": {
+        "Callsign": "IBE30FP",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR73DZ",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.217482342494823,
+      "Separation": 3.217482342494823
+    },
+    {
+      "First": {
+        "Callsign": "RYR73DZ",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG93NH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 11.370607021818826,
+      "Separation": 11.370607021818826
+    },
+    {
+      "First": {
+        "Callsign": "VLG93NH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "EWG1BL",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 18.32567645608574,
+      "Separation": 18.32567645608574
+    },
+    {
+      "First": {
+        "Callsign": "EWG1BL",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
         "Callsign": "VOE23TA",
         "Company": "VOE",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.012436989457354,
+      "Separation": 3.012436989457354
+    },
+    {
+      "First": {
+        "Callsign": "VOE23TA",
+        "Company": "VOE",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "TRA3A",
         "Company": "TRA",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.2995005105173836
+      "MinDistance": 3.2994067165211947,
+      "Separation": 3.2994067165211947
     },
     {
       "First": {
         "Callsign": "TRA3A",
         "Company": "TRA",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG836M",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 6.55029743499533
+      "MinDistance": 6.550213041908349,
+      "Separation": 6.550213041908349
     },
     {
       "First": {
         "Callsign": "VLG836M",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "AAL743",
         "Company": "AAL",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.9959253636172236
+      "MinDistance": 3.9958212787957317,
+      "Separation": 3.9958212787957317
     },
     {
       "First": {
         "Callsign": "AAL743",
         "Company": "AAL",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "AFR67FJ",
         "Company": "AFR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 8.423822109475829
+      "MinDistance": 8.423756211338729,
+      "Separation": 8.423756211338729
     },
     {
       "First": {
         "Callsign": "AFR67FJ",
         "Company": "AFR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "SWR71LU",
         "Company": "SWR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.9341768826703203
+      "MinDistance": 3.9340679196024735,
+      "Separation": 3.9340679196024735
     },
     {
       "First": {
         "Callsign": "SWR71LU",
         "Company": "SWR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "AUA39H",
         "Company": "AUA",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.336292525376158
+      "MinDistance": 4.33620865227948,
+      "Separation": 4.33620865227948
     },
     {
       "First": {
         "Callsign": "AUA39H",
         "Company": "AUA",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "N501MG",
         "Company": "N50",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G2"
       },
-      "MinDistance": 10.539030520887476
+      "MinDistance": 10.538992771737819,
+      "Separation": 10.538992771737819
     },
     {
       "First": {
         "Callsign": "N501MG",
         "Company": "N50",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "IBE30KE",
         "Company": "IBE",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 5.536716590173893
+      "MinDistance": 5.536594342946872,
+      "Separation": 5.536594342946872
     },
     {
       "First": {
         "Callsign": "IBE30KE",
         "Company": "IBE",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG9ZT",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 5.578589458064741
+      "MinDistance": 5.578482926322385,
+      "Separation": 5.578482926322385
     },
     {
       "First": {
         "Callsign": "VLG9ZT",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "RYR87QD",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.473735311944497
+      "MinDistance": 4.473657945379925,
+      "Separation": 4.473657945379925
     },
     {
       "First": {
         "Callsign": "RYR87QD",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "BAW473",
         "Company": "BAW",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 2.657865551302756
+      "MinDistance": 2.657779159618333,
+      "Separation": 2.657779159618333
     },
     {
       "First": {
         "Callsign": "BAW473",
         "Company": "BAW",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "ASL79V",
         "Company": "ASL",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 5.119879861499683
+      "MinDistance": 5.119782788400877,
+      "Separation": 5.119782788400877
     },
     {
       "First": {
         "Callsign": "ASL79V",
         "Company": "ASL",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "FIN07RT",
         "Company": "FIN",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.770400099389781
+      "MinDistance": 4.770299965399508,
+      "Separation": 4.770299965399508
     },
     {
       "First": {
         "Callsign": "FIN07RT",
         "Company": "FIN",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "RUK69FL",
         "Company": "RUK",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 14.533229365887776
+      "MinDistance": 14.533123741764879,
+      "Separation": 15.314404049539272
     },
     {
       "First": {
         "Callsign": "RUK69FL",
         "Company": "RUK",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG6LR",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.3077578003606494
+      "MinDistance": 3.307671326332642,
+      "Separation": 3.307671326332642
     },
     {
       "First": {
         "Callsign": "WMT79",
         "Company": "WMT",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "EZY16QD",
         "Company": "EZY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.4354371801387558
+      "MinDistance": 3.435338622357384,
+      "Separation": 3.435338622357384
     },
     {
       "First": {
         "Callsign": "EZY16QD",
         "Company": "EZY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG2KX",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.2744799951493055
+      "MinDistance": 3.2743719105953004,
+      "Separation": 3.2743719105953004
     },
     {
       "First": {
         "Callsign": "VLG2KX",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "RYR9ZC",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 4.729824294746797
+      "MinDistance": 4.729736012925993,
+      "Separation": 4.729736012925993
     },
     {
       "First": {
         "Callsign": "RYR9ZC",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "RYR17TT",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.414038550380574
+      "MinDistance": 3.413935957341573,
+      "Separation": 3.413935957341573
     },
     {
       "First": {
         "Callsign": "RYR17TT",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "IBE30HR",
         "Company": "IBE",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 3.4322364396328555
+      "MinDistance": 3.4321290306809566,
+      "Separation": 3.4321290306809566
     },
     {
       "First": {
         "Callsign": "IBE30HR",
         "Company": "IBE",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "RYR49YA",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.7307336736086683
+      "MinDistance": 3.7306576282368487,
+      "Separation": 3.7306576282368487
     },
     {
       "First": {
         "Callsign": "RYR49YA",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG7SV",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.403718806850364
+      "MinDistance": 3.4036332343513522,
+      "Separation": 3.4036332343513522
     },
     {
       "First": {
         "Callsign": "VLG7SV",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "EJU43XT",
         "Company": "EJU",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 4.262329476798611
+      "MinDistance": 4.262235996657212,
+      "Separation": 6.009031150823644
     },
     {
       "First": {
         "Callsign": "EJU43XT",
         "Company": "EJU",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG6TM",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.66880798696155
+      "MinDistance": 4.668760203477418,
+      "Separation": 4.668760203477418
     },
     {
       "First": {
         "Callsign": "VLG6TM",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "TRA35B",
         "Company": "TRA",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.040247210147228
+      "MinDistance": 3.0401962159499063,
+      "Separation": 3.0401962159499063
     },
     {
       "First": {
         "Callsign": "TRA35B",
         "Company": "TRA",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "ELY394",
         "Company": "ELY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 2.887986907116164
+      "MinDistance": 2.887914678932526,
+      "Separation": 2.887914678932526
     },
     {
       "First": {
         "Callsign": "ELY394",
         "Company": "ELY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "WZZ4",
         "Company": "WZZ",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.619895030244761
+      "MinDistance": 4.619787313768596,
+      "Separation": 4.619787313768596
     },
     {
       "First": {
         "Callsign": "WZZ4",
         "Company": "WZZ",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "EZY51EZ",
         "Company": "EZY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 13.997342206293425
+      "MinDistance": 13.99721940125571,
+      "Separation": 15.554896839079445
     },
     {
       "First": {
         "Callsign": "EZY51EZ",
         "Company": "EZY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "RYR33SC",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 7.834995614807038
+      "MinDistance": 7.834891564761589,
+      "Separation": 7.834891564761589
     },
     {
       "First": {
         "Callsign": "RYR33SC",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG15H",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 6.043285433717968
+      "MinDistance": 6.043200104183721,
+      "Separation": 6.043200104183721
     },
     {
       "First": {
         "Callsign": "VLG15H",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "N99ZM",
         "Company": "N99",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G2"
       },
-      "MinDistance": 6.495473868188776
+      "MinDistance": 6.495395385257564,
+      "Separation": 8.912182534426757
     },
     {
       "First": {
         "Callsign": "N99ZM",
         "Company": "N99",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "UAE255",
         "Company": "UAE",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 6.658511692365675
+      "MinDistance": 6.658422613079771,
+      "Separation": 6.658422613079771
     },
     {
       "First": {
         "Callsign": "UAE255",
         "Company": "UAE",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "N158QS",
         "Company": "N15",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G1"
       },
-      "MinDistance": 8.063851884664857
+      "MinDistance": 8.063748528374736,
+      "Separation": 8.063748528374736
     },
     {
       "First": {
         "Callsign": "N158QS",
         "Company": "N15",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "ETD35Q",
         "Company": "ETD",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 8.427602823767483
+      "MinDistance": 8.427506572581898,
+      "Separation": 8.427506572581898
     },
     {
       "First": {
         "Callsign": "ETD35Q",
         "Company": "ETD",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "MAC374R",
         "Company": "MAC",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 7.163594402987392
+      "MinDistance": 7.1635371803656716,
+      "Separation": 8.095237761627429
     },
     {
       "First": {
         "Callsign": "MAC374R",
         "Company": "MAC",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "RYR67DP",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 5.229463097701803
+      "MinDistance": 5.229369421029983,
+      "Separation": 5.229369421029983
     },
     {
       "First": {
         "Callsign": "RYR67DP",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "AHO647A",
         "Company": "AHO",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 4.22192700770361
+      "MinDistance": 4.221830193452897,
+      "Separation": 4.221830193452897
     },
     {
       "First": {
         "Callsign": "AHO647A",
         "Company": "AHO",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "EZY83DL",
         "Company": "EZY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 6.009831864989298
+      "MinDistance": 6.009668602303785,
+      "Separation": 7.432256849380506
     },
     {
       "First": {
         "Callsign": "EZY83DL",
         "Company": "EZY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "KLM86N",
         "Company": "KLM",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 4.614897936943437
+      "MinDistance": 4.614790386695166,
+      "Separation": 4.614790386695166
     },
     {
       "First": {
         "Callsign": "KLM86N",
         "Company": "KLM",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG7PC",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 3.7149359149038723
+      "MinDistance": 3.7148531019935094,
+      "Separation": 3.7148531019935094
     },
     {
       "First": {
         "Callsign": "VLG7PC",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG4YH",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 4.727377289641949
+      "MinDistance": 4.727301365686607,
+      "Separation": 4.727301365686607
     },
     {
       "First": {
         "Callsign": "VLG4YH",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "CSDPV",
         "Company": "CSD",
-        "Wake": 0,
-        "Class": "",
+        "Wake": "Light",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 8.22218866539461
+      "MinDistance": 8.222108002430259,
+      "Separation": 8.222108002430259
     },
     {
       "First": {
         "Callsign": "CSDPV",
         "Company": "CSD",
-        "Wake": 0,
-        "Class": "",
+        "Wake": "Light",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "EIN5LG",
         "Company": "EIN",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 18.80420582065977
+      "MinDistance": 18.804137839242085,
+      "Separation": 18.804137839242085
     },
     {
       "First": {
         "Callsign": "EIN5LG",
         "Company": "EIN",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "RYR1DH",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.375191608649787
+      "MinDistance": 4.375099685643694,
+      "Separation": 4.375099685643694
     },
     {
       "First": {
         "Callsign": "RYR1DH",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "AEE711",
         "Company": "AEE",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.719577042249153
+      "MinDistance": 4.719508803591783,
+      "Separation": 4.7520463386899605
     },
     {
       "First": {
         "Callsign": "AEE711",
         "Company": "AEE",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "WZZ46",
         "Company": "WZZ",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.344677338575272
+      "MinDistance": 4.344605728683085,
+      "Separation": 4.344605728683085
     },
     {
       "First": {
         "Callsign": "WZZ46",
         "Company": "WZZ",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "RYR930U",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 5.197170038400498
+      "MinDistance": 5.197083100336475,
+      "Separation": 5.197083100336475
     },
     {
       "First": {
         "Callsign": "RYR930U",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG1ZY",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.6914931417140475
+      "MinDistance": 3.691391823504893,
+      "Separation": 3.691391823504893
     },
     {
       "First": {
         "Callsign": "VLG1ZY",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG178R",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.5704694451351187
+      "MinDistance": 3.5704025602281946,
+      "Separation": 3.5704025602281946
     },
     {
       "First": {
         "Callsign": "VLG178R",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "RYR88AD",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.884981419072707
+      "MinDistance": 3.8849004265220124,
+      "Separation": 3.8849004265220124
     },
     {
       "First": {
         "Callsign": "RYR88AD",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "TAP1035",
         "Company": "TAP",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 3.4391665923287564
+      "MinDistance": 3.439050878324369,
+      "Separation": 3.439050878324369
     },
     {
       "First": {
         "Callsign": "TAP1035",
         "Company": "TAP",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG673Q",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.4786974480223436
+      "MinDistance": 3.4786162071198494,
+      "Separation": 3.4786162071198494
     },
     {
       "First": {
         "Callsign": "VLG673Q",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG10DH",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 3.6866769677830105
+      "MinDistance": 3.6865867946354003,
+      "Separation": 3.6865867946354003
     },
     {
       "First": {
         "Callsign": "VLG10DH",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG6009",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 4.628932112134734
+      "MinDistance": 4.628848875825034,
+      "Separation": 4.628848875825034
     },
     {
       "First": {
         "Callsign": "VLG6009",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "ZSABB",
         "Company": "ZSA",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 4.5449620152011345
+      "MinDistance": 4.544894605351704,
+      "Separation": 4.544894605351704
     },
     {
       "First": {
         "Callsign": "ZSABB",
         "Company": "ZSA",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG9AP",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 5.471525785223444
+      "MinDistance": 5.471444589764746,
+      "Separation": 5.471444589764746
     },
     {
       "First": {
         "Callsign": "VLG9AP",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "ITY077",
         "Company": "ITY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.247973100067138
+      "MinDistance": 4.247886895623454,
+      "Separation": 4.247886895623454
     },
     {
       "First": {
         "Callsign": "ITY077",
         "Company": "ITY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG9CA",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.9591981357993244
+      "MinDistance": 4.959115877815499,
+      "Separation": 4.959115877815499
     },
     {
       "First": {
         "Callsign": "VLG9CA",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG17FD",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 5.399189329922148
+      "MinDistance": 5.39912708954448,
+      "Separation": 5.39912708954448
     },
     {
       "First": {
         "Callsign": "VLG17FD",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "AEA6037",
         "Company": "AEA",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 4.500867271313079
+      "MinDistance": 4.500763235708539,
+      "Separation": 4.500763235708539
     },
     {
       "First": {
         "Callsign": "AEA6037",
         "Company": "AEA",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "BAW483B",
         "Company": "BAW",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 4.891645731152116
+      "MinDistance": 4.891568284613426,
+      "Separation": 4.891568284613426
     },
     {
       "First": {
         "Callsign": "BAW483B",
         "Company": "BAW",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "DLH13K",
         "Company": "DLH",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.1641650520696425
+      "MinDistance": 4.164125001301014,
+      "Separation": 4.164125001301014
     },
     {
       "First": {
         "Callsign": "DLH13K",
         "Company": "DLH",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG3QT",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.849285710350384
+      "MinDistance": 3.849209540214006,
+      "Separation": 3.849209540214006
     },
     {
       "First": {
         "Callsign": "VLG3QT",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "AEA7706",
         "Company": "AEA",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 4.591611599390174
+      "MinDistance": 4.5915260462158285,
+      "Separation": 4.5915260462158285
     },
     {
       "First": {
         "Callsign": "AEA7706",
         "Company": "AEA",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "GES441S",
         "Company": "GES",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G3"
       },
-      "MinDistance": 12.489243186478713
+      "MinDistance": 12.489203402924593,
+      "Separation": 12.489203402924593
     },
     {
       "First": {
         "Callsign": "GES441S",
         "Company": "GES",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG8PX",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 6.150203154857484
+      "MinDistance": 6.150082898338359,
+      "Separation": 6.150082898338359
     },
     {
       "First": {
         "Callsign": "VLG8PX",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG36BR",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 13.306164115722803
+      "MinDistance": 13.30608026717092,
+      "Separation": 13.30608026717092
     },
     {
       "First": {
         "Callsign": "VLG36BR",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "EJU16XM",
         "Company": "EJU",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 7.160470139955983
+      "MinDistance": 7.160392079869839,
+      "Separation": 7.160392079869839
     },
     {
       "First": {
         "Callsign": "EJU16XM",
         "Company": "EJU",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG9RM",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 5.065062144761417
+      "MinDistance": 5.064980834779857,
+      "Separation": 5.064980834779857
     },
     {
       "First": {
         "Callsign": "VLG9RM",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "RYR308X",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 3.6053494832321373
+      "MinDistance": 3.6052632457062215,
+      "Separation": 3.6052632457062215
     },
     {
       "First": {
         "Callsign": "RYR308X",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "UAL121",
         "Company": "UAL",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.9303237196505583
+      "MinDistance": 3.9302193652789725,
+      "Separation": 3.9302193652789725
     },
     {
       "First": {
         "Callsign": "UAL121",
         "Company": "UAL",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "THY4AP",
         "Company": "THY",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.595021478258028
+      "MinDistance": 4.594932454440158,
+      "Separation": 4.594932454440158
     },
     {
       "First": {
         "Callsign": "THY4AP",
         "Company": "THY",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG4HF",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 7.121376779328458
+      "MinDistance": 7.121302892786212,
+      "Separation": 7.121302892786212
     },
     {
       "First": {
         "Callsign": "VLG4HF",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "N904TS",
         "Company": "N90",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G2"
       },
-      "MinDistance": 4.122661410192285
+      "MinDistance": 4.122604142801468,
+      "Separation": 4.122604142801468
     },
     {
       "First": {
         "Callsign": "N904TS",
         "Company": "N90",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG7EW",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 5.10704986232846
+      "MinDistance": 5.106969561754584,
+      "Separation": 5.106969561754584
     },
     {
       "First": {
         "Callsign": "VLG7EW",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG8KR",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 5.810914884054958
+      "MinDistance": 5.810843043621011,
+      "Separation": 5.810843043621011
     },
     {
       "First": {
         "Callsign": "VLG8KR",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG6QC",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 5.994607017513067
+      "MinDistance": 5.994523934114153,
+      "Separation": 5.994523934114153
     },
     {
       "First": {
         "Callsign": "VLG6QC",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "RYR1UC",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.891401238133363
+      "MinDistance": 3.8913192466910544,
+      "Separation": 3.8913192466910544
     },
     {
       "First": {
         "Callsign": "RYR1UC",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "RYR47NG",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 3.8533620792708
+      "MinDistance": 3.853249836253592,
+      "Separation": 3.853249836253592
     },
     {
       "First": {
         "Callsign": "RYR47NG",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG3EN",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.3076097783725973
+      "MinDistance": 3.3075083175329922,
+      "Separation": 3.3075083175329922
     },
     {
       "First": {
         "Callsign": "VLG3EN",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG13HE",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 4.027078070509503
+      "MinDistance": 4.027007136004577,
+      "Separation": 4.027007136004577
     },
     {
       "First": {
         "Callsign": "VLG13HE",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG5AN",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.7763948430609884
+      "MinDistance": 3.776327803652807,
+      "Separation": 3.776327803652807
     },
     {
       "First": {
         "Callsign": "VLG5AN",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG1512",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.89910559002559
+      "MinDistance": 4.899018235624687,
+      "Separation": 4.899018235624687
     },
     {
       "First": {
         "Callsign": "VLG1512",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "NSZ365L",
         "Company": "NSZ",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 6.461002297552946
+      "MinDistance": 6.460933182319876,
+      "Separation": 6.460933182319876
     },
     {
       "First": {
         "Callsign": "NSZ365L",
         "Company": "NSZ",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG6NJ",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 12.924585281326614
+      "MinDistance": 12.924491231440516,
+      "Separation": 12.924491231440516
     },
     {
       "First": {
         "Callsign": "VLG6NJ",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG202P",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 11.185709803341641
+      "MinDistance": 11.185553562283129,
+      "Separation": 11.185553562283129
     },
     {
       "First": {
         "Callsign": "VLG202P",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "AAL67",
         "Company": "AAL",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 9.103856564328225
+      "MinDistance": 9.10385716022092,
+      "Separation": 10.271477968766735
     },
     {
       "First": {
         "Callsign": "AAL67",
         "Company": "AAL",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "IBE30HP",
         "Company": "IBE",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 8.471575641952722
+      "MinDistance": 8.471512936254822,
+      "Separation": 8.471512936254822
     },
     {
       "First": {
         "Callsign": "IBE30HP",
         "Company": "IBE",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG4WJ",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 5.546841112079964
+      "MinDistance": 5.5463269837045965,
+      "Separation": 5.5463269837045965
     },
     {
       "First": {
         "Callsign": "VLG4WJ",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG64LZ",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 7.397013945086424
+      "MinDistance": 7.396925612100045,
+      "Separation": 8.132833291495922
     },
     {
       "First": {
         "Callsign": "VLG64LZ",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG48EZ",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.602511321548208
+      "MinDistance": 4.602451637218718,
+      "Separation": 4.602451637218718
     },
     {
       "First": {
         "Callsign": "VLG48EZ",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG3YG",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 3.8226716732768873
+      "MinDistance": 3.8225958004715808,
+      "Separation": 3.8225958004715808
     },
     {
       "First": {
         "Callsign": "VLG3YG",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG5SH",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 13.827641044821277
+      "MinDistance": 13.827588456862184,
+      "Separation": 13.827588456862184
     },
     {
       "First": {
         "Callsign": "VLG5SH",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "NOZ41B",
         "Company": "NOZ",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.746139590424216
+      "MinDistance": 3.7460433347587223,
+      "Separation": 3.7460433347587223
     },
     {
       "First": {
         "Callsign": "DLH27W",
         "Company": "DLH",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "VLG63KY",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.8394615929473974
+      "MinDistance": 3.839396250209715,
+      "Separation": 3.839396250209715
     },
     {
       "First": {
         "Callsign": "VLG63KY",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG28VR",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 4.017865843336833
+      "MinDistance": 4.017791744689696,
+      "Separation": 4.017791744689696
     },
     {
       "First": {
         "Callsign": "VLG28VR",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "AHO859Y",
         "Company": "AHO",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 6.200263006483395
+      "MinDistance": 6.200196451239947,
+      "Separation": 6.893225309137719
     },
     {
       "First": {
         "Callsign": "AHO859Y",
         "Company": "AHO",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "BAW485",
         "Company": "BAW",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 5.009900715299777
+      "MinDistance": 5.009810824690492,
+      "Separation": 5.009810824690492
     },
     {
       "First": {
         "Callsign": "BAW485",
         "Company": "BAW",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG2MJ",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.694161965435099
+      "MinDistance": 3.6940893901707965,
+      "Separation": 3.6940893901707965
     },
     {
       "First": {
         "Callsign": "VLG2MJ",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "EJU64CT",
         "Company": "EJU",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.225472811504692
+      "MinDistance": 3.225385849327935,
+      "Separation": 3.225385849327935
     },
     {
       "First": {
         "Callsign": "EJU64CT",
         "Company": "EJU",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "RYR75HD",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 4.522571354910034
+      "MinDistance": 4.522479931875173,
+      "Separation": 4.522479931875173
     },
     {
       "First": {
         "Callsign": "RYR75HD",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "EJU48RE",
         "Company": "EJU",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 13.361963257702728
+      "MinDistance": 13.361823237513525,
+      "Separation": 13.475149941681043
     },
     {
       "First": {
         "Callsign": "EJU48RE",
         "Company": "EJU",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "AHY046",
         "Company": "AHY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.650267429129782
+      "MinDistance": 3.650223151545814,
+      "Separation": 3.650223151545814
     },
     {
       "First": {
         "Callsign": "AHY046",
         "Company": "AHY",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "RYR6UL",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.670302826217516
+      "MinDistance": 3.670185322215954,
+      "Separation": 3.670185322215954
     },
     {
       "First": {
         "Callsign": "RYR6UL",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "RYR6376",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 3.1061499808941346
+      "MinDistance": 3.106034933278696,
+      "Separation": 3.106034933278696
     },
     {
       "First": {
         "Callsign": "RYR6376",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "AFR94BQ",
         "Company": "AFR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 3.6490721021015906
+      "MinDistance": 3.6489599665236323,
+      "Separation": 3.6489599665236323
     },
     {
       "First": {
         "Callsign": "AFR94BQ",
         "Company": "AFR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "VLG3VF",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.0599262097115267
+      "MinDistance": 3.059846316649458,
+      "Separation": 3.059846316649458
     },
     {
       "First": {
         "Callsign": "VLG3VF",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "RYR426G",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 3.8115605806988984
+      "MinDistance": 3.8114688502564493,
+      "Separation": 3.8114688502564493
     },
     {
       "First": {
         "Callsign": "RYR426G",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
       "Second": {
         "Callsign": "RYR1XN",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 9.332735301979783
+      "MinDistance": 9.332635025641995,
+      "Separation": 12.03379985520118
     },
     {
       "First": {
         "Callsign": "RYR1XN",
         "Company": "RYR",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "T7MPS",
         "Company": "T7M",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G2"
       },
-      "MinDistance": 7.690365899298412
+      "MinDistance": 7.690332765249894,
+      "Separation": 7.690332765249894
     },
     {
       "First": {
         "Callsign": "T7MPS",
         "Company": "T7M",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "HP",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "AAL113",
         "Company": "AAL",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G1"
       },
-      "MinDistance": 4.961815657099169
+      "MinDistance": 4.961675336970904,
+      "Separation": 4.961675336970904
     },
     {
       "First": {
         "Callsign": "AAL113",
         "Company": "AAL",
-        "Wake": 2,
-        "Class": "",
+        "Wake": "Heavy",
+        "Class": "R",
         "SidGroup": "G1"
       },
       "Second": {
         "Callsign": "IBE30SY",
         "Company": "IBE",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 16.5183096853564
+      "MinDistance": 16.518208151747178,
+      "Separation": 16.518208151747178
     },
     {
       "First": {
         "Callsign": "IBE30SY",
         "Company": "IBE",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG12ET",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
-      "MinDistance": 5.848777425142859
+      "MinDistance": 5.84872201794602,
+      "Separation": 5.84872201794602
     },
     {
       "First": {
         "Callsign": "VLG12ET",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G2"
       },
       "Second": {
         "Callsign": "VLG3BV",
         "Company": "VLG",
-        "Wake": 1,
-        "Class": "",
+        "Wake": "Medium",
+        "Class": "R",
         "SidGroup": "G3"
       },
-      "MinDistance": 6.264508188012509
+      "MinDistance": 6.264432494856477,
+      "Separation": 6.264432494856477
+    },
+    {
+      "First": {
+        "Callsign": "VLG3BV",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "DLH73N",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 6.395529020882351,
+      "Separation": 6.395529020882351
+    },
+    {
+      "First": {
+        "Callsign": "DLH73N",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG86KT",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 6.955870804084157,
+      "Separation": 7.8964032342214345
+    },
+    {
+      "First": {
+        "Callsign": "VLG86KT",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "THY7DT",
+        "Company": "THY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 6.340372611349807,
+      "Separation": 6.4095142324540095
+    },
+    {
+      "First": {
+        "Callsign": "THY7DT",
+        "Company": "THY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VJT547",
+        "Company": "VJT",
+        "Wake": "Medium",
+        "Class": "HP",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 6.422216728116631,
+      "Separation": 6.422216728116631
+    },
+    {
+      "First": {
+        "Callsign": "VJT547",
+        "Company": "VJT",
+        "Wake": "Medium",
+        "Class": "HP",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "NJE930P",
+        "Company": "NJE",
+        "Wake": "Medium",
+        "Class": "HP",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 7.245493077305065,
+      "Separation": 7.245493077305065
+    },
+    {
+      "First": {
+        "Callsign": "NJE930P",
+        "Company": "NJE",
+        "Wake": "Medium",
+        "Class": "HP",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG7PG",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.5754438922818235,
+      "Separation": 5.5754438922818235
+    },
+    {
+      "First": {
+        "Callsign": "VLG7PG",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "AVA019",
+        "Company": "AVA",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 27.448239441554577,
+      "Separation": 27.448239441554577
+    },
+    {
+      "First": {
+        "Callsign": "AVA019",
+        "Company": "AVA",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "DAL169",
+        "Company": "DAL",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.691118306364015,
+      "Separation": 3.691118306364015
+    },
+    {
+      "First": {
+        "Callsign": "DAL169",
+        "Company": "DAL",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "EJU4214",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 7.863440720143292,
+      "Separation": 7.863440720143292
+    },
+    {
+      "First": {
+        "Callsign": "EJU4214",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG76QJ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.050961784087716,
+      "Separation": 4.050961784087716
+    },
+    {
+      "First": {
+        "Callsign": "VLG76QJ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR3YF",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.914817013105053,
+      "Separation": 3.914817013105053
+    },
+    {
+      "First": {
+        "Callsign": "RYR3YF",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG2912",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 2.4323670617153907,
+      "Separation": 2.7461971047917544
+    },
+    {
+      "First": {
+        "Callsign": "VLG2912",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "GES481Y",
+        "Company": "GES",
+        "Wake": "Medium",
+        "Class": "HP",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 6.103741903697514,
+      "Separation": 6.103741903697514
+    },
+    {
+      "First": {
+        "Callsign": "GES481Y",
+        "Company": "GES",
+        "Wake": "Medium",
+        "Class": "HP",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "DLH02T",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.037672080248283,
+      "Separation": 4.037672080248283
+    },
+    {
+      "First": {
+        "Callsign": "DLH02T",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG91PK",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 10.164954653661882,
+      "Separation": 10.164954653661882
+    },
+    {
+      "First": {
+        "Callsign": "VLG91PK",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "EJU64NE",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 8.80693140089055,
+      "Separation": 10.698274030962132
+    },
+    {
+      "First": {
+        "Callsign": "EJU64NE",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "EWG3ZR",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 7.44404483893921,
+      "Separation": 7.44404483893921
+    },
+    {
+      "First": {
+        "Callsign": "EWG3ZR",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "IBE30DP",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.5400183733273005,
+      "Separation": 4.5400183733273005
+    },
+    {
+      "First": {
+        "Callsign": "IBE30DP",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "IBE2621",
+        "Company": "IBE",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.292398359364675,
+      "Separation": 4.292398359364675
+    },
+    {
+      "First": {
+        "Callsign": "IBE2621",
+        "Company": "IBE",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG8560",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 7.937462905689557,
+      "Separation": 8.344688374364257
+    },
+    {
+      "First": {
+        "Callsign": "VLG8560",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "PGT16WE",
+        "Company": "PGT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 16.73828476714092,
+      "Separation": 16.73828476714092
+    },
+    {
+      "First": {
+        "Callsign": "PGT16WE",
+        "Company": "PGT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR43VV",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.0963613881705365,
+      "Separation": 4.0963613881705365
+    },
+    {
+      "First": {
+        "Callsign": "RYR43VV",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG1VH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 2.8348123156096747,
+      "Separation": 2.8348123156096747
+    },
+    {
+      "First": {
+        "Callsign": "VLG1VH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG812Z",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 9.338616501075625,
+      "Separation": 9.338616501075625
+    },
+    {
+      "First": {
+        "Callsign": "VLG812Z",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "LGL92PE",
+        "Company": "LGL",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 19.281567739124405,
+      "Separation": 19.281567739124405
+    },
+    {
+      "First": {
+        "Callsign": "LGL92PE",
+        "Company": "LGL",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG22GA",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.810249726139198,
+      "Separation": 7.194761904319953
+    },
+    {
+      "First": {
+        "Callsign": "VLG22GA",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR6MD",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 6.5407312029247215,
+      "Separation": 6.5407312029247215
+    },
+    {
+      "First": {
+        "Callsign": "RYR46QL",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "TAP47MM",
+        "Company": "TAP",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.92125814429572,
+      "Separation": 3.92125814429572
+    },
+    {
+      "First": {
+        "Callsign": "TAP47MM",
+        "Company": "TAP",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "SWR95B",
+        "Company": "SWR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.788380715036974,
+      "Separation": 3.788380715036974
+    },
+    {
+      "First": {
+        "Callsign": "SWR95B",
+        "Company": "SWR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "BAW475",
+        "Company": "BAW",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 11.269447955944624,
+      "Separation": 11.269447955944624
+    },
+    {
+      "First": {
+        "Callsign": "BAW475",
+        "Company": "BAW",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG5ET",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 7.279560754695068,
+      "Separation": 7.279560754695068
+    },
+    {
+      "First": {
+        "Callsign": "VLG5ET",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "LOT3FB",
+        "Company": "LOT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 6.3875475966507524,
+      "Separation": 6.3875475966507524
+    },
+    {
+      "First": {
+        "Callsign": "LOT3FB",
+        "Company": "LOT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG4UE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.541941539430205,
+      "Separation": 3.541941539430205
+    },
+    {
+      "First": {
+        "Callsign": "VLG4UE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG7LD",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.718428724777356,
+      "Separation": 4.718428724777356
+    },
+    {
+      "First": {
+        "Callsign": "VLG7LD",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "TSC261",
+        "Company": "TSC",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.2583250091930824,
+      "Separation": 3.2583250091930824
+    },
+    {
+      "First": {
+        "Callsign": "TSC261",
+        "Company": "TSC",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "CFE3290",
+        "Company": "CFE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 2.7663492885668783,
+      "Separation": 2.7663492885668783
+    },
+    {
+      "First": {
+        "Callsign": "CFE3290",
+        "Company": "CFE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG6MY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 16.112293894315357,
+      "Separation": 16.112293894315357
+    },
+    {
+      "First": {
+        "Callsign": "VLG6MY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "AFR31DH",
+        "Company": "AFR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.519371181426844,
+      "Separation": 4.519371181426844
+    },
+    {
+      "First": {
+        "Callsign": "AFR31DH",
+        "Company": "AFR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "UAE256",
+        "Company": "UAE",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.080430863877254,
+      "Separation": 3.080430863877254
+    },
+    {
+      "First": {
+        "Callsign": "UAE256",
+        "Company": "UAE",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "S5BBG",
+        "Company": "S5B",
+        "Wake": "Light",
+        "Class": "LP",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 8.670613569069639,
+      "Separation": 8.670613569069639
+    },
+    {
+      "First": {
+        "Callsign": "S5BBG",
+        "Company": "S5B",
+        "Wake": "Light",
+        "Class": "LP",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "BEL74C",
+        "Company": "BEL",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.5454680920005384,
+      "Separation": 3.5454680920005384
+    },
+    {
+      "First": {
+        "Callsign": "BEL74C",
+        "Company": "BEL",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG6UR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.862744098148099,
+      "Separation": 4.862744098148099
+    },
+    {
+      "First": {
+        "Callsign": "VLG6UR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG6CK",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.231049706404306,
+      "Separation": 3.231049706404306
+    },
+    {
+      "First": {
+        "Callsign": "VLG6CK",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG4ML",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.987947499390755,
+      "Separation": 4.987947499390755
+    },
+    {
+      "First": {
+        "Callsign": "VLG4ML",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG2GR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 6.173832459476918,
+      "Separation": 6.173832459476918
+    },
+    {
+      "First": {
+        "Callsign": "VLG2GR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "ICE597",
+        "Company": "ICE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.396568382231589,
+      "Separation": 4.396568382231589
+    },
+    {
+      "First": {
+        "Callsign": "ICE597",
+        "Company": "ICE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RYR9YQ",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 13.26980253717332,
+      "Separation": 13.278285029022497
+    },
+    {
+      "First": {
+        "Callsign": "RYR9YQ",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RYR7UL",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.0004497663575815,
+      "Separation": 4.0004497663575815
+    },
+    {
+      "First": {
+        "Callsign": "RYR7UL",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "WZZ11LU",
+        "Company": "WZZ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 10.212343022262116,
+      "Separation": 10.212343022262116
+    },
+    {
+      "First": {
+        "Callsign": "WZZ11LU",
+        "Company": "WZZ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG7886",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 7.3910952737946705,
+      "Separation": 7.3910952737946705
+    },
+    {
+      "First": {
+        "Callsign": "VLG7886",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG71QB",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.8399231479291487,
+      "Separation": 3.8399231479291487
+    },
+    {
+      "First": {
+        "Callsign": "RYR5TB",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "DLH33A",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.025023843127664,
+      "Separation": 4.025023843127664
+    },
+    {
+      "First": {
+        "Callsign": "DLH33A",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG5GU",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 19.5815664589929,
+      "Separation": 19.5815664589929
+    },
+    {
+      "First": {
+        "Callsign": "VLG5GU",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "KLJ7807",
+        "Company": "KLJ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 7.281211298252974,
+      "Separation": 7.281211298252974
+    },
+    {
+      "First": {
+        "Callsign": "KLJ7807",
+        "Company": "KLJ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG344W",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.7305804204224593,
+      "Separation": 3.7305804204224593
+    },
+    {
+      "First": {
+        "Callsign": "VLG344W",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "NSZ5512",
+        "Company": "NSZ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.53544055152847,
+      "Separation": 4.53544055152847
+    },
+    {
+      "First": {
+        "Callsign": "NSZ5512",
+        "Company": "NSZ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR46QT",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.138110502920246,
+      "Separation": 4.138110502920246
+    },
+    {
+      "First": {
+        "Callsign": "RYR46QT",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "QTR38P",
+        "Company": "QTR",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.3756632529386987,
+      "Separation": 3.3756632529386987
+    },
+    {
+      "First": {
+        "Callsign": "QTR38P",
+        "Company": "QTR",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG87RX",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 8.074845093787488,
+      "Separation": 8.074845093787488
+    },
+    {
+      "First": {
+        "Callsign": "VLG87RX",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "EJU93BF",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.975403160423053,
+      "Separation": 4.975403160423053
+    },
+    {
+      "First": {
+        "Callsign": "EJU93BF",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG8GG",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.793708269708118,
+      "Separation": 3.793708269708118
+    },
+    {
+      "First": {
+        "Callsign": "VLG8GG",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "SVA228",
+        "Company": "SVA",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.308230045452085,
+      "Separation": 4.308230045452085
+    },
+    {
+      "First": {
+        "Callsign": "SVA228",
+        "Company": "SVA",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "ORO1021",
+        "Company": "ORO",
+        "Wake": "Light",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 15.5880667686037,
+      "Separation": 18.244635832415856
+    },
+    {
+      "First": {
+        "Callsign": "ORO1021",
+        "Company": "ORO",
+        "Wake": "Light",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG46YD",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.392915500044768,
+      "Separation": 3.392915500044768
+    },
+    {
+      "First": {
+        "Callsign": "VLG46YD",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG3NY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.518230751417385,
+      "Separation": 4.518230751417385
+    },
+    {
+      "First": {
+        "Callsign": "VLG3NY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "WMT925",
+        "Company": "WMT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.7707635683970935,
+      "Separation": 3.7707635683970935
+    },
+    {
+      "First": {
+        "Callsign": "WMT925",
+        "Company": "WMT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR6FX",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.390879133868399,
+      "Separation": 4.390879133868399
+    },
+    {
+      "First": {
+        "Callsign": "RYR6FX",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG6AW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 7.9904461901507915,
+      "Separation": 7.9904461901507915
+    },
+    {
+      "First": {
+        "Callsign": "VLG6AW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG3XE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 8.394829506120272,
+      "Separation": 8.394829506120272
+    },
+    {
+      "First": {
+        "Callsign": "VLG3XE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG43FJ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 10.349227373818884,
+      "Separation": 10.670938094339848
+    },
+    {
+      "First": {
+        "Callsign": "VLG43FJ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RYR1BE",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.960730523759936,
+      "Separation": 3.960730523759936
+    },
+    {
+      "First": {
+        "Callsign": "RYR1BE",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RYR281V",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.298165719105829,
+      "Separation": 3.298165719105829
+    },
+    {
+      "First": {
+        "Callsign": "RYR281V",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG1AL",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.290919541875695,
+      "Separation": 4.290919541875695
+    },
+    {
+      "First": {
+        "Callsign": "VLG1AL",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "ANE14MZ",
+        "Company": "ANE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.879728157725238,
+      "Separation": 4.879728157725238
+    },
+    {
+      "First": {
+        "Callsign": "ANE14MZ",
+        "Company": "ANE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "ITY079",
+        "Company": "ITY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 5.803253522162317,
+      "Separation": 5.803253522162317
+    },
+    {
+      "First": {
+        "Callsign": "ITY079",
+        "Company": "ITY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "IBE30ME",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.9154966319672906,
+      "Separation": 3.9154966319672906
+    },
+    {
+      "First": {
+        "Callsign": "IBE30ME",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR7HV",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.457911572501851,
+      "Separation": 3.457911572501851
+    },
+    {
+      "First": {
+        "Callsign": "RYR7HV",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG53PP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.380654354367934,
+      "Separation": 3.380654354367934
+    },
+    {
+      "First": {
+        "Callsign": "VLG53PP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "EZY53LY",
+        "Company": "EZY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 8.25559141030266,
+      "Separation": 8.25559141030266
+    },
+    {
+      "First": {
+        "Callsign": "EZY53LY",
+        "Company": "EZY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG9FT",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.817190824602984,
+      "Separation": 3.817190824602984
+    },
+    {
+      "First": {
+        "Callsign": "VLG9FT",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "KLM88T",
+        "Company": "KLM",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.104431020897227,
+      "Separation": 4.104431020897227
+    },
+    {
+      "First": {
+        "Callsign": "KLM88T",
+        "Company": "KLM",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG2QL",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 14.876190885640533,
+      "Separation": 14.889945467837201
+    },
+    {
+      "First": {
+        "Callsign": "VLG2QL",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "BAW407B",
+        "Company": "BAW",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.641006973711202,
+      "Separation": 3.641006973711202
+    },
+    {
+      "First": {
+        "Callsign": "BAW407B",
+        "Company": "BAW",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG7ZP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 8.2280910903352,
+      "Separation": 8.2280910903352
+    },
+    {
+      "First": {
+        "Callsign": "VLG7ZP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "DLH12N",
+        "Company": "DLH",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.7521868526560005,
+      "Separation": 3.7521868526560005
+    },
+    {
+      "First": {
+        "Callsign": "DLH12N",
+        "Company": "DLH",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG96SC",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 6.6315872384136725,
+      "Separation": 6.6315872384136725
+    },
+    {
+      "First": {
+        "Callsign": "VLG96SC",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG228G",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.385588129191884,
+      "Separation": 3.385588129191884
+    },
+    {
+      "First": {
+        "Callsign": "VLG228G",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG5QR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.326488080737168,
+      "Separation": 4.326488080737168
+    },
+    {
+      "First": {
+        "Callsign": "VLG5QR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR3YH",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 22.767388154010206,
+      "Separation": 22.767388154010206
+    },
+    {
+      "First": {
+        "Callsign": "RYR3YH",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG898P",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 17.98863393146285,
+      "Separation": 17.98863393146285
+    },
+    {
+      "First": {
+        "Callsign": "VLG898P",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR55BR",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.997116081494199,
+      "Separation": 5.997116081494199
+    },
+    {
+      "First": {
+        "Callsign": "RYR55BR",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG4QY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 26.96355077401279,
+      "Separation": 26.96355077401279
+    },
+    {
+      "First": {
+        "Callsign": "VLG4QY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG8FZ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 18.517681262254143,
+      "Separation": 18.517681262254143
+    },
+    {
+      "First": {
+        "Callsign": "VLG8FZ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR16HM",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 10.673602601899754,
+      "Separation": 12.667471258891183
+    },
+    {
+      "First": {
+        "Callsign": "RYR16HM",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG21CW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 21.065395120689153,
+      "Separation": 21.065395120689153
+    },
+    {
+      "First": {
+        "Callsign": "VLG21CW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG5BQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.590250626277089,
+      "Separation": 4.590250626277089
+    },
+    {
+      "First": {
+        "Callsign": "VLG5BQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "TAP1037",
+        "Company": "TAP",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.271738504962775,
+      "Separation": 3.271738504962775
+    },
+    {
+      "First": {
+        "Callsign": "TAP1037",
+        "Company": "TAP",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG7AQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.500835791137804,
+      "Separation": 3.500835791137804
+    },
+    {
+      "First": {
+        "Callsign": "VLG7AQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG8KH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.338508361957326,
+      "Separation": 4.338508361957326
+    },
+    {
+      "First": {
+        "Callsign": "VLG8KH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG3KP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.143718584042611,
+      "Separation": 4.143718584042611
+    },
+    {
+      "First": {
+        "Callsign": "VLG3KP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "IBE30LC",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.6286664961862733,
+      "Separation": 3.6286664961862733
+    },
+    {
+      "First": {
+        "Callsign": "IBE30LC",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "EJU17YE",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.649062964122537,
+      "Separation": 3.649062964122537
+    },
+    {
+      "First": {
+        "Callsign": "EJU17YE",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG29AE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 7.534723951638257,
+      "Separation": 7.534723951638257
+    },
+    {
+      "First": {
+        "Callsign": "VLG29AE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG505P",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 7.334907938105747,
+      "Separation": 8.265803744563089
+    },
+    {
+      "First": {
+        "Callsign": "VLG505P",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG36CX",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 9.091734195527481,
+      "Separation": 9.170085248403458
+    },
+    {
+      "First": {
+        "Callsign": "VLG36CX",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "S5BBG",
+        "Company": "S5B",
+        "Wake": "Light",
+        "Class": "LP",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 9.197175177348125,
+      "Separation": 11.481875586621134
+    },
+    {
+      "First": {
+        "Callsign": "S5BBG",
+        "Company": "S5B",
+        "Wake": "Light",
+        "Class": "LP",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG2WK",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 10.807016507242464,
+      "Separation": 10.840555901394124
+    },
+    {
+      "First": {
+        "Callsign": "VLG2WK",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG1RM",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 10.461882279084923,
+      "Separation": 10.461882279084923
+    },
+    {
+      "First": {
+        "Callsign": "VLG1RM",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "DLH46A",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 6.822095759623926,
+      "Separation": 6.822095759623926
+    },
+    {
+      "First": {
+        "Callsign": "DLH46A",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG9YE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 5.323139633154944,
+      "Separation": 5.323139633154944
+    },
+    {
+      "First": {
+        "Callsign": "VLG9YE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "EJU63PM",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 18.572264597276458,
+      "Separation": 18.572264597276458
+    },
+    {
+      "First": {
+        "Callsign": "EJU63PM",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG7DE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.928760377795081,
+      "Separation": 4.928760377795081
+    },
+    {
+      "First": {
+        "Callsign": "VLG7DE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "IBE30SP",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 6.81357868908106,
+      "Separation": 6.81357868908106
+    },
+    {
+      "First": {
+        "Callsign": "IBE30SP",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "BAW481B",
+        "Company": "BAW",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.265936963940396,
+      "Separation": 4.265936963940396
+    },
+    {
+      "First": {
+        "Callsign": "BAW481B",
+        "Company": "BAW",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG37PE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 10.255266229408704,
+      "Separation": 10.255266229408704
+    },
+    {
+      "First": {
+        "Callsign": "VLG37PE",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "AEA55TM",
+        "Company": "AEA",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.946086640700999,
+      "Separation": 4.946086640700999
+    },
+    {
+      "First": {
+        "Callsign": "AEA55TM",
+        "Company": "AEA",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "EJU41YV",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.861174489852507,
+      "Separation": 4.861174489852507
+    },
+    {
+      "First": {
+        "Callsign": "EJU41YV",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "AFR26AR",
+        "Company": "AFR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.8348977202048493,
+      "Separation": 3.8348977202048493
+    },
+    {
+      "First": {
+        "Callsign": "AFR26AR",
+        "Company": "AFR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG4RP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 2.977244058787094,
+      "Separation": 2.977244058787094
+    },
+    {
+      "First": {
+        "Callsign": "VLG4RP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR5PW",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.644257109032476,
+      "Separation": 3.644257109032476
+    },
+    {
+      "First": {
+        "Callsign": "RYR5PW",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "DCAWN",
+        "Company": "DCA",
+        "Wake": "Medium",
+        "Class": "HP",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.005802251017903,
+      "Separation": 4.005802251017903
+    },
+    {
+      "First": {
+        "Callsign": "DCAWN",
+        "Company": "DCA",
+        "Wake": "Medium",
+        "Class": "HP",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "DLH65T",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 6.339749601008977,
+      "Separation": 6.339749601008977
+    },
+    {
+      "First": {
+        "Callsign": "DLH65T",
+        "Company": "DLH",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG56QG",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.92119029841473,
+      "Separation": 4.92119029841473
+    },
+    {
+      "First": {
+        "Callsign": "VLG56QG",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "IBE2627",
+        "Company": "IBE",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.078309569317026,
+      "Separation": 4.078309569317026
+    },
+    {
+      "First": {
+        "Callsign": "IBE2627",
+        "Company": "IBE",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "AIZ272",
+        "Company": "AIZ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 13.234251993309085,
+      "Separation": 13.234251993309085
+    },
+    {
+      "First": {
+        "Callsign": "AIZ272",
+        "Company": "AIZ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG5AV",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 2.54293374531121,
+      "Separation": 2.54293374531121
+    },
+    {
+      "First": {
+        "Callsign": "VLG5AV",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "N165SL",
+        "Company": "N16",
+        "Wake": "Light",
+        "Class": "NR+",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 8.07222484714137,
+      "Separation": 8.07222484714137
+    },
+    {
+      "First": {
+        "Callsign": "N165SL",
+        "Company": "N16",
+        "Wake": "Light",
+        "Class": "NR+",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG45HV",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 6.32000623223839,
+      "Separation": 6.32000623223839
+    },
+    {
+      "First": {
+        "Callsign": "VLG45HV",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "THY6SM",
+        "Company": "THY",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.456561489407177,
+      "Separation": 4.456561489407177
+    },
+    {
+      "First": {
+        "Callsign": "THY6SM",
+        "Company": "THY",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR3EW",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 6.746002550151538,
+      "Separation": 6.746002550151538
+    },
+    {
+      "First": {
+        "Callsign": "RYR3EW",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG1NJ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.410263622975669,
+      "Separation": 4.410263622975669
+    },
+    {
+      "First": {
+        "Callsign": "VLG1NJ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RYR5BE",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 9.679140028403946,
+      "Separation": 11.24690837152345
+    },
+    {
+      "First": {
+        "Callsign": "RYR5BE",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG17UM",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.0219330476420287,
+      "Separation": 3.0219330476420287
+    },
+    {
+      "First": {
+        "Callsign": "VLG17UM",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG9GK",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.549807190944137,
+      "Separation": 4.549807190944137
+    },
+    {
+      "First": {
+        "Callsign": "VLG9GK",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG29DW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 9.248037287550426,
+      "Separation": 9.248037287550426
+    },
+    {
+      "First": {
+        "Callsign": "VLG29DW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG9TW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 5.341546143640844,
+      "Separation": 5.341546143640844
+    },
+    {
+      "First": {
+        "Callsign": "IBE30WR",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR307W",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 17.5553259894276,
+      "Separation": 17.5553259894276
+    },
+    {
+      "First": {
+        "Callsign": "RYR307W",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG76MR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 5.125068958219577,
+      "Separation": 5.125068958219577
+    },
+    {
+      "First": {
+        "Callsign": "VLG76MR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG89UQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.698191256116018,
+      "Separation": 3.698191256116018
+    },
+    {
+      "First": {
+        "Callsign": "VLG89UQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG3728",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.690869877825557,
+      "Separation": 5.690869877825557
+    },
+    {
+      "First": {
+        "Callsign": "RYR92TG",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG6FP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 18.51721155353531,
+      "Separation": 18.51721155353531
+    },
+    {
+      "First": {
+        "Callsign": "VLG6FP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "SWR191N",
+        "Company": "SWR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 8.101641684859123,
+      "Separation": 8.101641684859123
+    },
+    {
+      "First": {
+        "Callsign": "SWR191N",
+        "Company": "SWR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "EWG76ZM",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.335274356301451,
+      "Separation": 4.335274356301451
+    },
+    {
+      "First": {
+        "Callsign": "EWG76ZM",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "ANE003",
+        "Company": "ANE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 6.782096380590209,
+      "Separation": 6.782096380590209
+    },
+    {
+      "First": {
+        "Callsign": "ANE003",
+        "Company": "ANE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG7SA",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 7.7694154991521955,
+      "Separation": 7.7694154991521955
+    },
+    {
+      "First": {
+        "Callsign": "VLG7SA",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG1517",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 5.075251254563811,
+      "Separation": 5.204997270793247
+    },
+    {
+      "First": {
+        "Callsign": "VLG7364",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG2JU",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.941731609117187,
+      "Separation": 3.941731609117187
+    },
+    {
+      "First": {
+        "Callsign": "VLG2JU",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RAM961U",
+        "Company": "RAM",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 12.832374856069318,
+      "Separation": 12.911662593594864
+    },
+    {
+      "First": {
+        "Callsign": "RAM961U",
+        "Company": "RAM",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "AUA34R",
+        "Company": "AUA",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.4057010722054284,
+      "Separation": 3.4057010722054284
+    },
+    {
+      "First": {
+        "Callsign": "AUA34R",
+        "Company": "AUA",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "AEA7708",
+        "Company": "AEA",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.4994021533488557,
+      "Separation": 3.4994021533488557
+    },
+    {
+      "First": {
+        "Callsign": "AEA7708",
+        "Company": "AEA",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "EWG9SJ",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 8.186550275375115,
+      "Separation": 8.186550275375115
+    },
+    {
+      "First": {
+        "Callsign": "EWG9SJ",
+        "Company": "EWG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "SAS51B",
+        "Company": "SAS",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 2.802302331949828,
+      "Separation": 2.802302331949828
+    },
+    {
+      "First": {
+        "Callsign": "SAS51B",
+        "Company": "SAS",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG5XA",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.027256907582198,
+      "Separation": 3.027256907582198
+    },
+    {
+      "First": {
+        "Callsign": "VLG5XA",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "BCS8029",
+        "Company": "BCS",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.6501997083679214,
+      "Separation": 3.6501997083679214
+    },
+    {
+      "First": {
+        "Callsign": "BCS8029",
+        "Company": "BCS",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG37QW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 3.2419574110968576,
+      "Separation": 3.2419574110968576
+    },
+    {
+      "First": {
+        "Callsign": "VLG37QW",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG1CL",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.13152647789739,
+      "Separation": 3.13152647789739
+    },
+    {
+      "First": {
+        "Callsign": "VLG1CL",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "RYR59DM",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.795600868089229,
+      "Separation": 3.795600868089229
+    },
+    {
+      "First": {
+        "Callsign": "RYR59DM",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "EZY31ZM",
+        "Company": "EZY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.8560610461788505,
+      "Separation": 3.8560610461788505
+    },
+    {
+      "First": {
+        "Callsign": "EZY31ZM",
+        "Company": "EZY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG7LH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.8278749555162386,
+      "Separation": 3.8278749555162386
+    },
+    {
+      "First": {
+        "Callsign": "VLG7LH",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG3518",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.0686133147194745,
+      "Separation": 5.0686133147194745
+    },
+    {
+      "First": {
+        "Callsign": "VLG3518",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "UAE188",
+        "Company": "UAE",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.814438007402836,
+      "Separation": 3.814438007402836
+    },
+    {
+      "First": {
+        "Callsign": "UAE188",
+        "Company": "UAE",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG3EB",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 7.752224180212437,
+      "Separation": 7.968211875559632
+    },
+    {
+      "First": {
+        "Callsign": "VLG3EB",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "WZZ012",
+        "Company": "WZZ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.223566463535262,
+      "Separation": 4.223566463535262
+    },
+    {
+      "First": {
+        "Callsign": "WZZ012",
+        "Company": "WZZ",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR3185",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.236189615767516,
+      "Separation": 4.236189615767516
+    },
+    {
+      "First": {
+        "Callsign": "RYR3185",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG3QJ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.6403175870641156,
+      "Separation": 3.6403175870641156
+    },
+    {
+      "First": {
+        "Callsign": "VLG3QJ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG8AY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.00181919620794,
+      "Separation": 4.00181919620794
+    },
+    {
+      "First": {
+        "Callsign": "VLG8AY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR1LV",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.522057790486459,
+      "Separation": 5.522057790486459
+    },
+    {
+      "First": {
+        "Callsign": "RYR1LV",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "VLG688V",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 2.8710565050743333,
+      "Separation": 2.8710565050743333
+    },
+    {
+      "First": {
+        "Callsign": "VLG688V",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG3PQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.170699390483816,
+      "Separation": 5.170699390483816
+    },
+    {
+      "First": {
+        "Callsign": "VLG3PQ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR16LD",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.821475932221224,
+      "Separation": 3.821475932221224
+    },
+    {
+      "First": {
+        "Callsign": "RYR16LD",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "EJU74GF",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 10.820061340912439,
+      "Separation": 10.820061340912439
+    },
+    {
+      "First": {
+        "Callsign": "EJU74GF",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR48RQ",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 4.965910038444497,
+      "Separation": 4.965910038444497
+    },
+    {
+      "First": {
+        "Callsign": "RYR48RQ",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG6DT",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.340871686118639,
+      "Separation": 5.788978601941074
+    },
+    {
+      "First": {
+        "Callsign": "VLG6DT",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "IBE3041",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.558279926884368,
+      "Separation": 5.558279926884368
+    },
+    {
+      "First": {
+        "Callsign": "IBE3041",
+        "Company": "IBE",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "AFR68FK",
+        "Company": "AFR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 10.010575426987852,
+      "Separation": 10.010575426987852
+    },
+    {
+      "First": {
+        "Callsign": "AFR68FK",
+        "Company": "AFR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "BAW487",
+        "Company": "BAW",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 9.102803382074248,
+      "Separation": 9.220943756241276
+    },
+    {
+      "First": {
+        "Callsign": "BAW487",
+        "Company": "BAW",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "TAP45LV",
+        "Company": "TAP",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 4.2288778331705155,
+      "Separation": 4.2288778331705155
+    },
+    {
+      "First": {
+        "Callsign": "TAP45LV",
+        "Company": "TAP",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "BEL7JN",
+        "Company": "BEL",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 6.922334362856865,
+      "Separation": 6.922334362856865
+    },
+    {
+      "First": {
+        "Callsign": "BEL7JN",
+        "Company": "BEL",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG5NZ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 9.97046899998344,
+      "Separation": 10.660059716624508
+    },
+    {
+      "First": {
+        "Callsign": "VLG5NZ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR7509",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 5.938682253210559,
+      "Separation": 5.938682253210559
+    },
+    {
+      "First": {
+        "Callsign": "RYR56MP",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG9ZA",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.624859070890661,
+      "Separation": 4.624859070890661
+    },
+    {
+      "First": {
+        "Callsign": "VLG3CP",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "WMT424",
+        "Company": "WMT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 7.533446457341162,
+      "Separation": 7.533446457341162
+    },
+    {
+      "First": {
+        "Callsign": "WMT424",
+        "Company": "WMT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR33JW",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 11.250141806425805,
+      "Separation": 11.250141806425805
+    },
+    {
+      "First": {
+        "Callsign": "RYR33JW",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG4LJ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.7958662743683718,
+      "Separation": 3.7958662743683718
+    },
+    {
+      "First": {
+        "Callsign": "VLG4LJ",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "BCS8031",
+        "Company": "BCS",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.9816038644444176,
+      "Separation": 3.9816038644444176
+    },
+    {
+      "First": {
+        "Callsign": "BCS8031",
+        "Company": "BCS",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "AEA70JK",
+        "Company": "AEA",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 6.818672413864801,
+      "Separation": 6.818672413864801
+    },
+    {
+      "First": {
+        "Callsign": "VLG5UY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "EZY64WK",
+        "Company": "EZY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 4.445355327453161,
+      "Separation": 4.445355327453161
+    },
+    {
+      "First": {
+        "Callsign": "EZY64WK",
+        "Company": "EZY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "DAH2015",
+        "Company": "DAH",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 7.809643520483379,
+      "Separation": 7.9811319332536605
+    },
+    {
+      "First": {
+        "Callsign": "DAH2015",
+        "Company": "DAH",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "BCS8049",
+        "Company": "BCS",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 16.96483258293425,
+      "Separation": 16.96483258293425
+    },
+    {
+      "First": {
+        "Callsign": "BCS8049",
+        "Company": "BCS",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG8JY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 6.987810682307285,
+      "Separation": 7.4826096793903
+    },
+    {
+      "First": {
+        "Callsign": "VLG8JY",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR7B",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 3.0202482522364615,
+      "Separation": 3.0202482522364615
+    },
+    {
+      "First": {
+        "Callsign": "RYR7B",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG7ZR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 2.8578635876204816,
+      "Separation": 2.863854280134951
+    },
+    {
+      "First": {
+        "Callsign": "VLG7ZR",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR4UN",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 6.222642971663184,
+      "Separation": 6.222642971663184
+    },
+    {
+      "First": {
+        "Callsign": "RYR4UN",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "ELY392",
+        "Company": "ELY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 5.175635933478869,
+      "Separation": 5.175635933478869
+    },
+    {
+      "First": {
+        "Callsign": "ELY392",
+        "Company": "ELY",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "WMT9VD",
+        "Company": "WMT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 10.319226364352234,
+      "Separation": 10.319226364352234
+    },
+    {
+      "First": {
+        "Callsign": "WMT9VD",
+        "Company": "WMT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG41YG",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 2.5823105299107065,
+      "Separation": 2.5823105299107065
+    },
+    {
+      "First": {
+        "Callsign": "VLG41YG",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "TAP1043",
+        "Company": "TAP",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "MinDistance": 6.569369447861834,
+      "Separation": 6.569369447861834
+    },
+    {
+      "First": {
+        "Callsign": "TAP1043",
+        "Company": "TAP",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "BCS463",
+        "Company": "BCS",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 2.9840029712304466,
+      "Separation": 2.9840029712304466
+    },
+    {
+      "First": {
+        "Callsign": "BCS463",
+        "Company": "BCS",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "UPS243",
+        "Company": "UPS",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 8.963115037202865,
+      "Separation": 8.963115037202865
+    },
+    {
+      "First": {
+        "Callsign": "UPS243",
+        "Company": "UPS",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "WMT5SY",
+        "Company": "WMT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 11.13262999240835,
+      "Separation": 11.13262999240835
+    },
+    {
+      "First": {
+        "Callsign": "EJU67YR",
+        "Company": "EJU",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G2"
+      },
+      "Second": {
+        "Callsign": "RYR46FX",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 10.846063393381582,
+      "Separation": 10.846063393381582
+    },
+    {
+      "First": {
+        "Callsign": "RYR46FX",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "VLG7844",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 16.49856804918439,
+      "Separation": 16.49856804918439
+    },
+    {
+      "First": {
+        "Callsign": "VLG7844",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "FDX6372",
+        "Company": "FDX",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 3.7869227117571787,
+      "Separation": 3.7869227117571787
+    },
+    {
+      "First": {
+        "Callsign": "FDX6372",
+        "Company": "FDX",
+        "Wake": "Heavy",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "SWN6LC",
+        "Company": "SWN",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 23.01664173420579,
+      "Separation": 23.01664173420579
+    },
+    {
+      "First": {
+        "Callsign": "SWN6LC",
+        "Company": "SWN",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "EIN56V",
+        "Company": "EIN",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 8.730710600030688,
+      "Separation": 8.730710600030688
+    },
+    {
+      "First": {
+        "Callsign": "HAT6129",
+        "Company": "HAT",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "Second": {
+        "Callsign": "VLG606P",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "MinDistance": 11.528470088795498,
+      "Separation": 11.528470088795498
+    },
+    {
+      "First": {
+        "Callsign": "VLG606P",
+        "Company": "VLG",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G3"
+      },
+      "Second": {
+        "Callsign": "RYR7WN",
+        "Company": "RYR",
+        "Wake": "Medium",
+        "Class": "R",
+        "SidGroup": "G1"
+      },
+      "MinDistance": 15.063678298819479,
+      "Separation": 16.278114299708623
     }
   ]
 }

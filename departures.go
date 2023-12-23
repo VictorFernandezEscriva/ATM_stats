@@ -11,7 +11,7 @@ type DepartureData struct {
 	Callsign string
 	ToD      int
 	Type     string
-	Wake     int    // 0 -> light; 1 -> medium; 2 -> heavy
+	Wake     string
 	SID      string // XXXXX
 	Runway   string
 }
@@ -34,14 +34,14 @@ func parseDepartures(sh *xlsx.Sheet, sids map[string]struct{}) []DepartureData {
 		typ := r.GetCell(4).Value
 
 		wakeStr := r.GetCell(5).Value
-		var wake int
+		var wake string
 		switch wakeStr {
 		case "Ligera":
-			wake = 0
+			wake = "Light"
 		case "Media":
-			wake = 1
+			wake = "Medium"
 		case "Pesada":
-			wake = 2
+			wake = "Heavy"
 		default:
 			return fmt.Errorf("unknown wake: %s", wakeStr)
 		}
@@ -50,7 +50,11 @@ func parseDepartures(sh *xlsx.Sheet, sids map[string]struct{}) []DepartureData {
 		sid := "-"
 		if depProc != "-" {
 			sid = depProc[:len(depProc)-2]
-		} else {
+			if _, ok := sids[sid]; !ok {
+				sid = "-"
+			}
+		}
+		if sid == "-" {
 			words := strings.Split(r.GetCell(3).Value, " ")
 			for _, word := range words {
 				if strings.Contains(word, "(") && strings.Contains(word, ")") {
@@ -83,7 +87,7 @@ func parseDepartures(sh *xlsx.Sheet, sids map[string]struct{}) []DepartureData {
 
 		runway := r.GetCell(7).Value[5:]
 
-		if runway != "24L" && runway != "6R" {
+		if runway != "24L" && runway != "06R" {
 			return nil
 		}
 

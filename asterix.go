@@ -16,6 +16,7 @@ type AsterixData struct {
 
 func readAsterix(file *os.File) []AsterixData {
 	reader := csv.NewReader(file)
+	defer file.Close()
 	reader.Comma = ';'
 	_, err := reader.Read()
 	if err != nil {

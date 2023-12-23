@@ -28,7 +28,7 @@ Analizar:
 type FlightInfo struct {
 	Callsign string
 	Company  string
-	Wake     int
+	Wake     string
 	Class    string
 	SidGroup string
 }
@@ -37,6 +37,7 @@ type Result struct {
 	First       FlightInfo
 	Second      FlightInfo
 	MinDistance float64
+	Separation  float64
 }
 
 type ResultsJSON struct {
@@ -80,17 +81,26 @@ func main() {
 	fmt.Println("Number of aircraft with departures:", len(departures))
 
 	sh = wbClasses.Sheets[0]
-	//classes := parseClasses(sh)
-	parseClasses(sh)
+	classes := parseClasses(sh)
 
-	// Read Asterix
-	file, err := os.Open(DECODED_CSV)
-	if err != nil {
-		log.Fatal("reading decoded csv:", err)
+	csvFiles := []string{
+		"data/csv 0-4.csv",
+		"data/csv 4-8.csv",
+		"data/csv 8-12.csv",
+		"data/csv 12-16.csv",
+		"data/csv 16-20.csv",
+		"data/csv 20-24.csv",
 	}
-	defer file.Close()
+	var asterixData []AsterixData
+	for _, name := range csvFiles {
+		// Read Asterix
+		file, err := os.Open(name)
+		if err != nil {
+			log.Fatal("reading decoded csv:", err)
+		}
 
-	asterixData := readAsterix(file)
+		asterixData = append(asterixData, readAsterix(file)...)
+	}
 	asterixData = filterData(asterixData, departures)
 
 	sort.Slice(asterixData, func(i, j int) bool {
@@ -99,15 +109,22 @@ func main() {
 
 	captureStart := asterixData[0].Time
 	captureEnd := asterixData[len(asterixData)-1].Time
-	fmt.Println(captureStart, captureEnd)
-
-	// pairsToCheck := make([][2]int, 0)
+	fmt.Println(captureStart, captureEnd, len(asterixData))
 
 	projection := NewSystemCartesian(GPSCoords{
 		41.0656560,
 		1.413301,
 		3438.954,
 	})
+
+	proj1 := projection.GeocentricToStereographic(GPSCoords{
+		41.0656560,
+		1.413301,
+		3438.954,
+	}.ToGeocentric())
+	if proj1.U != 0 || proj1.V != 0 {
+		log.Fatal("Error with stereographic projection")
+	}
 
 	results := ResultsJSON{}
 	for i, dep1 := range departures[:len(departures)-1] {
@@ -119,7 +136,11 @@ func main() {
 		//pairsToCheck = append(pairsToCheck, [2]int{i, i + 1})
 
 		for _, d := range asterixData {
-			if d.Callsign == dep1.Callsign {
+			if d.Callsign == dep1.Callsign && d.Time >= float64(dep1.ToD) {
+				// Prevent data from another flight
+				if len(flight1) != 0 && d.Time-flight1[len(flight1)-1].Time > 3600 {
+					break
+				}
 				flight1 = append(flight1, d)
 			}
 		}
@@ -128,7 +149,7 @@ func main() {
 			continue
 		}
 
-		fmt.Printf("%s %.2f\n", dep1.Callsign, flight1[len(flight1)-1].Time-flight1[0].Time)
+		//fmt.Printf("%s %.2f\n", dep1.Callsign, flight1[len(flight1)-1].Time-flight1[0].Time)
 
 		dep2 := departures[i+1]
 		if dep2.ToD < int(captureStart) || dep2.ToD > int(captureEnd) {
@@ -138,6 +159,10 @@ func main() {
 		flight2 := make([]AsterixData, 0)
 		for _, d := range asterixData {
 			if d.Callsign == dep2.Callsign && d.Time >= float64(dep2.ToD) {
+				// Prevent data from another flight
+				if len(flight2) != 0 && d.Time-flight2[len(flight2)-1].Time > 3600 {
+					break
+				}
 				flight2 = append(flight2, d)
 			}
 		}
@@ -163,6 +188,9 @@ func main() {
 				break
 			}
 		}
+		if sid1 == "" {
+			log.Fatal("Unknown group for sid:", dep1.SID)
+		}
 		var sid2 string
 		for i, g := range sidGroups {
 			_, ok := g[dep2.SID]
@@ -171,23 +199,51 @@ func main() {
 				break
 			}
 		}
+		if sid2 == "" {
+			log.Fatal("Unknown group for sid:", dep2.SID)
+		}
+
+		var class1 string
+		for _, c := range classes {
+			_, ok := c.Types[dep1.Type]
+			if ok {
+				class1 = c.Name
+				break
+			}
+		}
+		if class1 == "" {
+			class1 = "R"
+		}
+
+		var class2 string
+		for _, c := range classes {
+			_, ok := c.Types[dep2.Type]
+			if ok {
+				class2 = c.Name
+				break
+			}
+		}
+		if class2 == "" {
+			class2 = "R"
+		}
 
 		results.Results = append(results.Results, Result{
 			First: FlightInfo{
 				Callsign: dep1.Callsign,
 				Company:  dep1.Callsign[:3],
 				Wake:     dep1.Wake,
-				//Class: ,
+				Class:    class1,
 				SidGroup: sid1,
 			},
 			Second: FlightInfo{
 				Callsign: dep2.Callsign,
 				Company:  dep2.Callsign[:3],
 				Wake:     dep2.Wake,
-				//Class: ,
+				Class:    class2,
 				SidGroup: sid2,
 			},
 			MinDistance: minDistance,
+			Separation:  distances[0],
 		})
 	}
 
