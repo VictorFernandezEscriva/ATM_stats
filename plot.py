@@ -308,13 +308,14 @@ def plot_normal_dist(data, ax, xlabel, ylabel):
     ax.hist(data, bins=num_bins, density=True, alpha=0.5, color='b', edgecolor='black')
 
     mu, std = norm.fit(data)
+    perc95 = np.percentile(data, 95)
 
     xmin, xmax = ax.get_xlim()
     x = np.linspace(xmin, xmax, 100)
     p = norm.pdf(x, mu, std)
     ax.plot(x, p, 'k', linewidth=2)
 
-    ax.set_title("Fit results: mu = %.2f,  std = %.2f" % (mu, std))
+    ax.set_title("Fit results: mu = %.2f,  std = %.2f, percentile 95 = %.2f" % (mu, std, perc95))
     ax.set_xlabel(xlabel)
     ax.set_ylabel(ylabel)
 
